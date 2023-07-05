@@ -96,7 +96,8 @@ console.log(
 // 5. Return sum of all numbers that are divisible by 3.
 processor = Integers(integers)
 console.log(
-	'\nNumbers divisible by 3: ',
+	'\nSum of numbers divisible by 3: ',
 	processor.divisibleBy(3)
+		.sum()
 		.get()
 )
