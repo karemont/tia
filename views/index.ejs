@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title><%= title %></title>
+	</head>
+
+	<body>
+		<h1><%= title %></h1>
+		<a href="/ping" class="button">Ping</a>
+		
+		<style>
+			.button {
+				display: inline-block;
+				padding: 10px 20px;
+				background-color: #3ca33f;
+				color: white;
+				text-align: center;
+				text-decoration: none;
+				cursor: pointer;
+				border-radius: 4px;
+				border: none;
+				box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+			}
+
+			.button:hover {
+				background-color: #2a9e2e;
+			}
+
+			.button:active {
+				background-color: #1a831e;
+				box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+			}
+		</style>
+	</body>
+
+</html>

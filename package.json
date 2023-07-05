@@ -1,0 +1,17 @@
+{
+  "name": "ga-tia",
+  "version": "1.0.0",
+  "description": "GAMEART Technical Interview Assessment",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "a1": "node index.js",
+    "a2": "node server.js"
+  },
+  "author": "Kareem Montaser",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
